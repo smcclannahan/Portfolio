@@ -1,0 +1,138 @@
+.right-content{
+     text-align: center;
+    margin-top: 20px;
+    float: left;
+    width: 45%;
+}
+    
+.left-float{
+    float: left;
+}
+    
+.right-float{
+     float: right;
+}
+    
+    
+.imageView{
+    width: 100%;
+     height: 70%;
+}
+    
+.item{
+    display: block;
+    float: left;
+    width: 350px;
+    margin: 5px;
+    height: 350px; /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+    border: 2px solid black;
+    background-color: rgb(154, 173, 173);
+    padding: 40px;
+}
+    
+#banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+    
+#text{
+    width: 633px;
+    margin: auto;
+    height: 95px;
+    display: block;
+}
+    
+#cart1{
+    width: 50%;
+    width: 150px;
+    margin: auto; 
+    height: 150px;
+}
+    
+#cart2{
+    width: 150px;
+    margin: auto;
+    height: 150px;
+}
+    
+.inline-block {
+    display: inline-block;
+}
+    
+#search{
+    display: inline;
+}
+    
+#top-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    margin: 3px 5px;
+    border: 1px solid black;
+    background-color: rgb(154, 173, 173);
+}
+    
+#content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    width:100%;
+}
+
+#myWishlist {
+     display: none; /* fixed the error that was here */
+     float: right;
+     width: 25%;
+     padding: 50px 0;
+     text-align: center;
+     background-color: rgb(154, 173, 173);
+     border: 2px solid black;
+     margin-top: 20px;
+}
+
+#myCart {
+    float: left;
+}
+
+/*vvvvv SORT BY CSS vvvvv*/ 
+.dropbtn {
+    background-color: rgb(3, 187, 243); /*Button original color */
+    color: rgb(255, 255, 255); /*Button Text color*/
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black; 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #999898;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: rgb(6, 26, 114);}

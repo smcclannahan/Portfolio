@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="welcome.css">
+    <script src="../wishlist1/wishlist1.js"></script>
+    <script src="../wishlist1/login.js"></script>
+</head>
+
+<body>
+
+<div id="welcome" class="header">
+  <h2 style="margin:5px">Welcome to</h2>
+  <div id="banner"> 
+        <div class="inline-block">
+            <img src="../GUI/cart.png" id="cart1"> 
+        </div>
+        <div class="inline-block">
+            <img src="../GUI/text.png" id="text">
+        </div>
+        <div class="inline-block">
+            <img src="../GUI/cart.png" id="cart2">
+        </div>
+  </div>
+  <br>
+  <div id="banner">
+    <button onclick="welcome()">Start Shopping</button>
+    <button onclick="aboutMe()">About Me</button>
+    <!-- <button onclick="document.getElementById('login').style.display='block'">Login</button> -->
+    <button onclick="signUp()">Sign Up or Sign In</button>
+  </div>
+
+<!-- <div id="login" class="modal">
+  
+  <form class="modal-content animate" method="post">
+    <div class="loginInfobox">
+      <span onclick="document.getElementById('login').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="loginInfo">
+      <label for="name"><b>Username</b></label>
+      <input id="username1" type="text" placeholder="Enter Username" name="name" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input id="password1" type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button onclick="loginCheck()">Login</button>
+    </div>
+
+    <div class="loginInfo" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+
+<div id="register" class="registration">
+  
+  <form class="modal-content animate" method="post">
+    <div class="loginInfobox">
+      <span onclick="document.getElementById('register').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="loginInfo">
+      <label for="name"><b>Username</b></label>
+      <input id="username2" type="text" placeholder="Enter Username" name="name2" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input id="password2" type="password" placeholder="Enter Password" name="psw1" required>
+
+      <label for="psw"><b>Confirm Password</b></label>
+      <input id="password3" type="password" placeholder="Enter Password" name="psw2" required>
+      
+      <button onclick="registerCheck()">Register</button>
+    </div>
+
+    <div class="registration" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('register').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div> -->
+
+</div>
+
+<div id="aboutMePage">
+    <h3>About Us</h3>
+    <br>
+    Our website allows users to shop for grocery store products. The user may use the search bar to find specific items and
+    they can use the filter feature to sort the products by the given options. From there they can add their desired items
+    to their wishlist or cart by using the add buttons in each items box. To view their wishlist all the user has to
+    do is click on the wishlish button on the tool bar and for their cart they have to click on the checkout button and then 
+    the load cart button (there is still more to be updated).
+    Thanks for visiting our website!
+</div>
+
+</body>
+
+</html>

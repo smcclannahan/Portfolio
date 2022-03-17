@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaStop n’ Shop</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="./search.js"></script>
+	<script src="../wishlist1/wishlist1.js"></script>
+    <script src="../products/products.js"></script>
+    <script src="filter.js"></script>
+</head>
+
+<body>
+    <style> body{background-color: #8db3b6;} </style>
+    <div id="banner"> <!--Logo at the top of the page-->
+        <!--This logo is just a sample, you guys can change if you want-->
+        <div class="inline-block">
+            <img src="cart.png" alt="[SPACE SAVED FOR LOGO]" id="cart1"> 
+        </div>
+        <div class="inline-block">
+            <img src="text.png" alt="[SPACE SAVED FOR LOGO]" id="text">
+        </div>
+        <div class="inline-block">
+            <img src="cart.png" alt="[SPACE SAVED FOR LOGO]" id="cart2">
+        </div>
+    </div>
+
+    <div id="top-bar">  <!-- Utilities bar-->
+        <div class="dropdown">
+            <button class="dropbtn" id = tester>Sort By</button>
+            <div class="dropdown-content">
+              <a href = "#" onclick="getChange(1,1)">Price Low to High</a>
+              <a href = "#" onclick="getChange(2,1)">Price High to Low</a>
+              <a id = fruit href = "#" onclick="getChange(3,1)">Fruit</a>
+              <a id = meat href = "#" onclick="getChange(4,1)">Meat</a>
+              <a id = dairy href = "#" onclick="getChange(5,1)">Dairy</a>
+              <a id = vegatble href = "#" onclick="getChange(6,1)">Vegetable</a>
+              <a id = drink href = "#" onclick="getChange(7,1)">Drink</a>
+              <a id = other href = "#" onclick="getChange(8,1)">Other</a>
+            </div>
+          </div>
+        <form action="#" onsubmit="return submitThis()" id="searchbox">
+            <input type="text" size="25" name="searchtext" id="searchtext" placeholder="Search by type, price, or name">
+            <input type="submit" name="submit" style="margin:5px" value="Search">
+        </form>
+		<button onclick="home()" style="margin:5px">Home</button>
+        <button onclick="getCart()" style="margin:5px">Cart</button>
+        <button onclick="wishlist()" style="margin:5px">Wishlist</button>
+    </div>
+
+    <div id = "myCart">
+        <script>getCart()</script>
+    </div>
+
+    <div id="myWishlist">
+    My Wishlist:
+    <br><br>
+    (Product-Price-Quantity)
+    <script>wishlist()</script> <!-- for some reason needed called twice, so I put this here so now the button works - Cole-->
+	<ul id="myList"> </ul> 
+    </div> 
+
+<!-- 
+    for search functionality, likely have to modify this to take data from a JS list, 
+	and just order them based on what is in the search bar
+    this will be similar to how it worked in the car search assignment thing.
+
+    When adding said list functionality, try to change the alt text to the name of the 
+	item, so if for some reason the image doesnt load you can 
+    tell what it is. 
+-->
+    <div id=content> <!-- Spaces for the items and their utilities, Add more/resize if you need-->
+        <div class=item id=item1>
+			<img src="" id = "1" alt="[ERROR LOADING IMAGE]" class="imageView"/>
+			<p id="itemName1" style = "display:inline">[ERROR LOADING PRODUCT NAME]</p>
+            <p id="itemPrice1" style = "display:inline">[ERROR LOADING PRODUCT PRICE]</p></br>
+			<button class="right-content left-float" onclick="addToCart(0)">Add To Cart</button>
+            <button class="right-content right-float" onclick="pushTowishlist(1)">Add To Wishlist</button>
+            Quantity(max 5)<input type = "number" id = "quantity0" min = "1" max = "5">
+			<script>generateNameAndPrice(1,1);</script>
+        </div>
+
+        <div class=item id=item2>
+            <img src="" id = "2" alt="[ERROR LOADING IMAGE]" class="imageView"/> 
+			<p id="itemName2" style = "display:inline">[ERROR LOADING PRODUCT NAME]</p>
+            <p id="itemPrice2" style = "display:inline">[ERROR LOADING PRODUCT PRICE]</p></br>
+			<button class="right-content left-float" onclick="addToCart(1)">Add To Cart</button>
+            <button class="right-content right-float" onclick="pushTowishlist(2)">Add To Wishlist</button>
+            Quantity(max 5)<input type = "number" id = "quantity1" min = "1" max = "5">
+			<script>generateNameAndPrice(2,2);</script>
+        </div>
+
+        <div class=item id=item3>
+			<img src="" id = "3" alt="[ERROR LOADING IMAGE]" class="imageView"/>
+			<p id="itemName3" style = "display:inline"> [ERROR LOADING PRODUCT NAME] </p>
+            <p id="itemPrice3" style = "display:inline"> [ERROR LOADING PRODUCT PRICE] </p></br>
+			<button class="right-content left-float" onclick="addToCart(2)">Add To Cart</button>
+            <button class="right-content right-float" onclick="pushTowishlist(3)">Add To Wishlist</button>
+            Quantity(max 5)<input type = "number" id = "quantity2" min = "1" max = "5">
+			<script>generateNameAndPrice(3,3);</script>
+        </div>
+
+        <div class=item id=item4>
+            <img src="" id = "4" alt="[ERROR LOADING IMAGE]" class="imageView"/>
+			<p id="itemName4" style = "display:inline"> [ERROR LOADING PRODUCT NAME] </p>
+            <p id="itemPrice4" style = "display:inline"> [ERROR LOADING PRODUCT PRICE] </p></br>
+            <button class="right-content left-float" onclick="addToCart(3)">Add To Cart</button>
+            <button class="right-content right-float" onclick="pushTowishlist(4)">Add To Wishlist</button>
+            Quantity(max 5)<input type = "number" id = "quantity3" min = "1" max = "5">
+            <script>generateNameAndPrice(4,4);</script>
+        </div>
+
+        <div class=item id=item5>
+            <img src="" id = "5" alt="[ERROR LOADING IMAGE]" class="imageView"/>
+			<p id="itemName5" style = "display:inline">[ERROR LOADING PRODUCT NAME]</p>
+            <p id="itemPrice5" style = "display:inline"> [ERROR LOADING PRODUCT PRICE] </p></br>
+            <button class="right-content left-float" onclick="addToCart(4)">Add To Cart</button>
+            <button class="right-content right-float" onclick="pushTowishlist(5)">Add To Wishlist</button>
+            Quantity(max 5)<input type = "number" id = "quantity4" min = "1" max = "5">
+            <script>generateNameAndPrice(5,5);</script>
+        </div>
+
+        <div class=item id=item6>
+            <img src="" id = "6" alt="[ERROR LOADING IMAGE]" class="imageView"/>
+			<p id="itemName6" style = "display:inline"> [ERROR LOADING PRODUCT NAME] </p>
+            <p id="itemPrice6" style = "display:inline"> [ERROR LOADING PRODUCT PRICE] </p></br>
+            <button class="right-content left-float" onclick="addToCart(5)">Add To Cart</button>
+            <button class="right-content right-float" onclick="pushTowishlist(6)">Add To Wishlist</button>
+            Quantity(max 5)<input type = "number" id = "quantity5" min = "1" max = "5">
+            <script>generateNameAndPrice(6,6);</script>
+        </div>
+
+        <div class=item id=item7>
+            <img src="" id = "7" alt="[ERROR LOADING IMAGE]" class="imageView"/>
+			<p id="itemName7" style = "display:inline"> [ERROR LOADING PRODUCT NAME] </p>
+            <p id="itemPrice7" style = "display:inline"> [ERROR LOADING PRODUCT PRICE] </p></br>
+            <button class="right-content left-float" onclick="addToCart(6, 1)">Add To Cart</button>
+            <button class="right-content right-float" onclick="pushTowishlist(7)">Add To Wishlist</button>
+            Quantity(max 5)<input type = "number" id = "quantity6" min = "1" max = "5">
+            <script>generateNameAndPrice(7,7);</script>
+        </div>
+
+        <div class=item id=item8>
+            <img src="" id = "8" alt="[ERROR LOADING IMAGE]" class="imageView"/>
+			<p id="itemName8" style = "display:inline"> [ERROR LOADING PRODUCT NAME] </p>
+            <p id="itemPrice8" style = "display:inline"> [ERROR LOADING PRODUCT PRICE] </p></br>
+            <button class="right-content left-float" onclick="addToCart(7)">Add To Cart</button>
+            <button class="right-content right-float" onclick="pushTowishlist(8)">Add To Wishlist</button>
+            Quantity(max 5)<input type = "number" id = "quantity7" min = "1" max = "5">
+            <script>generateNameAndPrice(8,8);</script>
+        </div>
+
+        <div class=item id=item9>
+            <img src="" id = "9" alt="[ERROR LOADING IMAGE]" class="imageView"/>
+			<p id="itemName9" style = "display:inline">[ERROR LOADING PRODUCT NAME]</p>
+            <p id="itemPrice9" style = "display:inline">[ERROR LOADING PRODUCT PRICE]</p></br>
+            <button class="right-content left-float" onclick="addToCart(8)">Add To Cart</button>
+            <button class="right-content right-float" onclick="pushTowishlist(9)">Add To Wishlist</button>
+            Quantity(max 5)<input type = "number" id = "quantity8" min = "1" max = "5">
+            <script>generateNameAndPrice(9,9);</script>
+          </div>
+
+          <div class=item id=item10>
+            <img src="" id = "10" alt="[ERROR LOADING IMAGE]" class="imageView"/>
+			<p id=itemName10 style = "display:inline"> [ERROR LOADING PRODUCT NAME] </p>
+            <p id=itemPrice10 style = "display:inline"> [ERROR LOADING PRODUCT PRICE] </p></br>
+            <button class="right-content left-float" onclick="addToCart(9)">Add To Cart</button>
+            <button class="right-content right-float" onclick="pushTowishlist(10)">Add To Wishlist</button>
+            Quantity(max 5)<input type = "number" id = "quantity9" min = "1" max = "5">
+            <script>generateNameAndPrice(10,10);</script>
+        </div>
+
+        <div class=item id=item11>
+            <img src="" id = "11" alt="[ERROR LOADING IMAGE]" class="imageView"/>
+			<p id="itemName11" style = "display:inline">[ERROR LOADING PRODUCT NAME]</p>
+            <p id="itemPrice11" style = "display:inline">[ERROR LOADING PRODUCT PRICE]</p></br>
+            <button class="right-content left-float" onclick="addToCart(10)">Add To Cart</button>
+            <button class="right-content right-float" onclick="pushTowishlist(11)">Add To Wishlist</button>
+            Quantity(max 5)<input type = "number" id = "quantity10" min = "1" max = "5">
+            <script>generateNameAndPrice(11,11);</script>
+        </div>
+
+        <div class=item id=item12>
+            <img src="" id = "12" alt="[ERROR LOADING IMAGE]" class="imageView"/>
+			<p id="itemName12" style = "display:inline"> [ERROR LOADING PRODUCT NAME] </p>
+            <p id="itemPrice12" style = "display:inline"> [ERROR LOADING PRODUCT PRICE] </p></br>
+            <button class="right-content left-float" onclick="addToCart(11)">Add To Cart</button>
+            <button class="right-content right-float" onclick="pushTowishlist(12)">Add To Wishlist</button>
+            Quantity(max 5)<input type = "number" id = "quantity11" min = "1" max = "5">
+            <script>generateNameAndPrice(12,12);</script>
+          </div>	 
+          
+    </div>
+    <script>setQuantity();</script>
+    <button onclick="welcomeBack()">Back to Welcome Page</button>
+</body>
+
+</html>
