@@ -1,0 +1,183 @@
+2019-12-10 14:54:17.920  WARN 3024 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/igope/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/igope/.m2/repository/org/json/json/20190722/json-20190722.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-12-10 14:54:17.944  INFO 3024 --- [main] com.example.demo.LoginTests              : Starting LoginTests on DESKTOP-2LLLJ22 with PID 3024 (started by igope in D:\coms309GIT\sd_2\Backend\SD2Server)
+2019-12-10 14:54:17.950  INFO 3024 --- [main] com.example.demo.LoginTests              : No active profile set, falling back to default profiles: default
+2019-12-10 14:54:20.077  INFO 3024 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-10 14:54:20.347  INFO 3024 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-12-10 14:54:20.348  INFO 3024 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-12-10 14:54:20.365  INFO 3024 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 17 ms
+2019-12-10 14:54:20.409  INFO 3024 --- [main] com.example.demo.LoginTests              : Started LoginTests in 2.832 seconds (JVM running for 4.548)
+2019-12-10 14:54:20.460  INFO 3024 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-10 14:55:49.993  WARN 6244 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/igope/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/igope/.m2/repository/org/json/json/20190722/json-20190722.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-12-10 14:55:50.010  INFO 6244 --- [main] com.example.demo.LoginTests              : Starting LoginTests on DESKTOP-2LLLJ22 with PID 6244 (started by igope in D:\coms309GIT\sd_2\Backend\SD2Server)
+2019-12-10 14:55:50.013  INFO 6244 --- [main] com.example.demo.LoginTests              : No active profile set, falling back to default profiles: default
+2019-12-10 14:55:51.962  INFO 6244 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-10 14:55:52.224  INFO 6244 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-12-10 14:55:52.224  INFO 6244 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-12-10 14:55:52.239  INFO 6244 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 15 ms
+2019-12-10 14:55:52.278  INFO 6244 --- [main] com.example.demo.LoginTests              : Started LoginTests in 2.629 seconds (JVM running for 3.641)
+2019-12-10 14:55:52.386  INFO 6244 --- [main] c.e.d.playerlogin.PlayerLoginController  : bob
+2019-12-10 14:55:52.386  INFO 6244 --- [main] c.e.d.playerlogin.PlayerLoginController  : new user attempted
+2019-12-10 14:55:52.389  INFO 6244 --- [main] c.e.d.playerlogin.PlayerLoginController  : here
+2019-12-10 14:55:52.416  INFO 6244 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-10 14:57:55.907  WARN 15228 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/igope/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/igope/.m2/repository/org/json/json/20190722/json-20190722.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-12-10 14:57:55.923  INFO 15228 --- [main] com.example.demo.LoginTests              : Starting LoginTests on DESKTOP-2LLLJ22 with PID 15228 (started by igope in D:\coms309GIT\sd_2\Backend\SD2Server)
+2019-12-10 14:57:55.926  INFO 15228 --- [main] com.example.demo.LoginTests              : No active profile set, falling back to default profiles: default
+2019-12-10 14:57:57.884  INFO 15228 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-10 14:57:58.191  INFO 15228 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-12-10 14:57:58.191  INFO 15228 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-12-10 14:57:58.207  INFO 15228 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 16 ms
+2019-12-10 14:57:58.247  INFO 15228 --- [main] com.example.demo.LoginTests              : Started LoginTests in 2.643 seconds (JVM running for 3.643)
+2019-12-10 14:57:58.347  INFO 15228 --- [main] c.e.d.playerlogin.PlayerLoginController  : bob
+2019-12-10 14:57:58.347  INFO 15228 --- [main] c.e.d.playerlogin.PlayerLoginController  : new user attempted
+2019-12-10 14:57:58.350  INFO 15228 --- [main] c.e.d.playerlogin.PlayerLoginController  : here
+2019-12-10 14:57:58.379  INFO 15228 --- [main] c.e.d.playerlogin.PlayerLoginController  : bob
+2019-12-10 14:57:58.380  INFO 15228 --- [main] c.e.d.playerlogin.PlayerLoginController  : new user attempted
+2019-12-10 14:57:58.380  INFO 15228 --- [main] c.e.d.playerlogin.PlayerLoginController  : user already existed
+2019-12-10 14:57:58.387  INFO 15228 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-10 15:00:44.605  WARN 5984 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/igope/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/igope/.m2/repository/org/json/json/20190722/json-20190722.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-12-10 15:00:44.622  INFO 5984 --- [main] com.example.demo.LoginTests              : Starting LoginTests on DESKTOP-2LLLJ22 with PID 5984 (started by igope in D:\coms309GIT\sd_2\Backend\SD2Server)
+2019-12-10 15:00:44.625  INFO 5984 --- [main] com.example.demo.LoginTests              : No active profile set, falling back to default profiles: default
+2019-12-10 15:00:46.559  INFO 5984 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-10 15:00:46.828  INFO 5984 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-12-10 15:00:46.828  INFO 5984 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-12-10 15:00:46.844  INFO 5984 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 16 ms
+2019-12-10 15:00:46.882  INFO 5984 --- [main] com.example.demo.LoginTests              : Started LoginTests in 2.584 seconds (JVM running for 3.609)
+2019-12-10 15:00:46.977  INFO 5984 --- [main] c.e.d.playerlogin.PlayerLoginController  : attmepted login
+2019-12-10 15:00:46.979  INFO 5984 --- [main] c.e.d.playerlogin.PlayerLoginController  : attempt succes
+2019-12-10 15:00:46.996  INFO 5984 --- [main] c.e.d.playerlogin.PlayerLoginController  : bob
+2019-12-10 15:00:46.997  INFO 5984 --- [main] c.e.d.playerlogin.PlayerLoginController  : new user attempted
+2019-12-10 15:00:46.998  INFO 5984 --- [main] c.e.d.playerlogin.PlayerLoginController  : here
+2019-12-10 15:00:47.024  INFO 5984 --- [main] c.e.d.playerlogin.PlayerLoginController  : bob
+2019-12-10 15:00:47.024  INFO 5984 --- [main] c.e.d.playerlogin.PlayerLoginController  : new user attempted
+2019-12-10 15:00:47.025  INFO 5984 --- [main] c.e.d.playerlogin.PlayerLoginController  : user already existed
+2019-12-10 15:00:47.031  INFO 5984 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-10 15:02:50.751  WARN 17236 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/igope/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/igope/.m2/repository/org/json/json/20190722/json-20190722.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-12-10 15:02:50.769  INFO 17236 --- [main] com.example.demo.LoginTests              : Starting LoginTests on DESKTOP-2LLLJ22 with PID 17236 (started by igope in D:\coms309GIT\sd_2\Backend\SD2Server)
+2019-12-10 15:02:50.773  INFO 17236 --- [main] com.example.demo.LoginTests              : No active profile set, falling back to default profiles: default
+2019-12-10 15:02:52.797  INFO 17236 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-10 15:02:53.078  INFO 17236 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-12-10 15:02:53.079  INFO 17236 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-12-10 15:02:53.094  INFO 17236 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 15 ms
+2019-12-10 15:02:53.136  INFO 17236 --- [main] com.example.demo.LoginTests              : Started LoginTests in 2.721 seconds (JVM running for 3.711)
+2019-12-10 15:02:53.248  INFO 17236 --- [main] c.e.d.playerlogin.PlayerLoginController  : attmepted login
+2019-12-10 15:02:53.250  INFO 17236 --- [main] c.e.d.playerlogin.PlayerLoginController  : attempt succes
+2019-12-10 15:02:53.266  INFO 17236 --- [main] c.e.d.playerlogin.PlayerLoginController  : bob
+2019-12-10 15:02:53.267  INFO 17236 --- [main] c.e.d.playerlogin.PlayerLoginController  : new user attempted
+2019-12-10 15:02:53.268  INFO 17236 --- [main] c.e.d.playerlogin.PlayerLoginController  : here
+2019-12-10 15:02:53.295  INFO 17236 --- [main] c.e.d.playerlogin.PlayerLoginController  : bob
+2019-12-10 15:02:53.296  INFO 17236 --- [main] c.e.d.playerlogin.PlayerLoginController  : new user attempted
+2019-12-10 15:02:53.296  INFO 17236 --- [main] c.e.d.playerlogin.PlayerLoginController  : user already existed
+2019-12-10 15:02:53.303  INFO 17236 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-10 15:03:42.555  WARN 20168 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/igope/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/igope/.m2/repository/org/json/json/20190722/json-20190722.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-12-10 15:03:42.575  INFO 20168 --- [main] com.example.demo.LoginTests              : Starting LoginTests on DESKTOP-2LLLJ22 with PID 20168 (started by igope in D:\coms309GIT\sd_2\Backend\SD2Server)
+2019-12-10 15:03:42.578  INFO 20168 --- [main] com.example.demo.LoginTests              : No active profile set, falling back to default profiles: default
+2019-12-10 15:03:44.563  INFO 20168 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-10 15:03:44.826  INFO 20168 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-12-10 15:03:44.826  INFO 20168 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-12-10 15:03:44.843  INFO 20168 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 17 ms
+2019-12-10 15:03:44.891  INFO 20168 --- [main] com.example.demo.LoginTests              : Started LoginTests in 2.658 seconds (JVM running for 3.676)
+2019-12-10 15:03:44.992  INFO 20168 --- [main] c.e.d.playerlogin.PlayerLoginController  : bob
+2019-12-10 15:03:44.992  INFO 20168 --- [main] c.e.d.playerlogin.PlayerLoginController  : new user attempted
+2019-12-10 15:03:44.995  INFO 20168 --- [main] c.e.d.playerlogin.PlayerLoginController  : here
+2019-12-10 15:03:45.023  INFO 20168 --- [main] c.e.d.playerlogin.PlayerLoginController  : bob
+2019-12-10 15:03:45.023  INFO 20168 --- [main] c.e.d.playerlogin.PlayerLoginController  : new user attempted
+2019-12-10 15:03:45.023  INFO 20168 --- [main] c.e.d.playerlogin.PlayerLoginController  : user already existed
+2019-12-10 15:03:45.030  INFO 20168 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-10 15:03:57.038  WARN 16456 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/igope/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/igope/.m2/repository/org/json/json/20190722/json-20190722.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-12-10 15:03:57.056  INFO 16456 --- [main] com.example.demo.LoginTests              : Starting LoginTests on DESKTOP-2LLLJ22 with PID 16456 (started by igope in D:\coms309GIT\sd_2\Backend\SD2Server)
+2019-12-10 15:03:57.059  INFO 16456 --- [main] com.example.demo.LoginTests              : No active profile set, falling back to default profiles: default
+2019-12-10 15:03:59.094  INFO 16456 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-10 15:03:59.384  INFO 16456 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-12-10 15:03:59.384  INFO 16456 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-12-10 15:03:59.402  INFO 16456 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 18 ms
+2019-12-10 15:03:59.445  INFO 16456 --- [main] com.example.demo.LoginTests              : Started LoginTests in 2.741 seconds (JVM running for 3.735)
+2019-12-10 15:03:59.544  INFO 16456 --- [main] c.e.d.playerlogin.PlayerLoginController  : attmepted login
+2019-12-10 15:03:59.546  INFO 16456 --- [main] c.e.d.playerlogin.PlayerLoginController  : attempt succes
+2019-12-10 15:03:59.561  INFO 16456 --- [main] c.e.d.playerlogin.PlayerLoginController  : bob
+2019-12-10 15:03:59.562  INFO 16456 --- [main] c.e.d.playerlogin.PlayerLoginController  : new user attempted
+2019-12-10 15:03:59.562  INFO 16456 --- [main] c.e.d.playerlogin.PlayerLoginController  : here
+2019-12-10 15:03:59.589  INFO 16456 --- [main] c.e.d.playerlogin.PlayerLoginController  : bob
+2019-12-10 15:03:59.590  INFO 16456 --- [main] c.e.d.playerlogin.PlayerLoginController  : new user attempted
+2019-12-10 15:03:59.590  INFO 16456 --- [main] c.e.d.playerlogin.PlayerLoginController  : user already existed
+2019-12-10 15:03:59.596  INFO 16456 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-10 15:06:31.417  WARN 14100 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/igope/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/igope/.m2/repository/org/json/json/20190722/json-20190722.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-12-10 15:06:31.437  INFO 14100 --- [main] com.example.demo.LoginTests              : Starting LoginTests on DESKTOP-2LLLJ22 with PID 14100 (started by igope in D:\coms309GIT\sd_2\Backend\SD2Server)
+2019-12-10 15:06:31.441  INFO 14100 --- [main] com.example.demo.LoginTests              : No active profile set, falling back to default profiles: default
+2019-12-10 15:06:33.339  INFO 14100 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-10 15:06:33.703  INFO 14100 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-12-10 15:06:33.703  INFO 14100 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-12-10 15:06:33.724  INFO 14100 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 21 ms
+2019-12-10 15:06:33.784  INFO 14100 --- [main] com.example.demo.LoginTests              : Started LoginTests in 2.699 seconds (JVM running for 3.663)
+2019-12-10 15:06:33.888  INFO 14100 --- [main] c.e.d.playerlogin.PlayerLoginController  : attmepted login
+2019-12-10 15:06:33.890  INFO 14100 --- [main] c.e.d.playerlogin.PlayerLoginController  : attempt succes
+2019-12-10 15:06:33.918  INFO 14100 --- [main] c.e.d.playerlogin.PlayerLoginController  : bob
+2019-12-10 15:06:33.918  INFO 14100 --- [main] c.e.d.playerlogin.PlayerLoginController  : new user attempted
+2019-12-10 15:06:33.918  INFO 14100 --- [main] c.e.d.playerlogin.PlayerLoginController  : here
+2019-12-10 15:06:33.926  INFO 14100 --- [main] c.e.d.playerlogin.PlayerLoginController  : bob
+2019-12-10 15:06:33.926  INFO 14100 --- [main] c.e.d.playerlogin.PlayerLoginController  : new user attempted
+2019-12-10 15:06:33.926  INFO 14100 --- [main] c.e.d.playerlogin.PlayerLoginController  : user already existed
+2019-12-10 15:06:33.933  INFO 14100 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

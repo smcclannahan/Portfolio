@@ -1,0 +1,27 @@
+
+p4_down_animation.png
+size: 128,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+tile054
+  rotate: false
+  xy: 2, 284
+  size: 100, 139
+  orig: 100, 139
+  offset: 0, 0
+  index: -1
+tile055
+  rotate: false
+  xy: 2, 143
+  size: 100, 139
+  orig: 100, 139
+  offset: 0, 0
+  index: -1
+tile056
+  rotate: false
+  xy: 2, 2
+  size: 100, 139
+  orig: 100, 139
+  offset: 0, 0
+  index: -1

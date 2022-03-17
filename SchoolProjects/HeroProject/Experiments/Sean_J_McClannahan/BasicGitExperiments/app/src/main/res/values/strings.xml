@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BasicGitExperiments</string>
+    <string name="new_screen">New Screen</string>
+    <string name="message">Message</string>
+</resources>

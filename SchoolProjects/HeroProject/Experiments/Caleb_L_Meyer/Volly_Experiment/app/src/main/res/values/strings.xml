@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Volly_Experiment</string>
+    <string name="button">Button</string>
+
+    <string name="image_request">Image Request</string>
+    <string name="textview">TextView</string>
+    <string name="string_request">String Request</string>
+    <string name="json_object_request">JSON object Request</string>
+    <string name="json_array_request">JSON array Request</string>
+    <string name="jsonrespons">jsonrespons</string>
+    <string name="todo">TODO</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BasicGit</string>
+    <string name="next">Next</string>
+    <string name="message">Message</string>
+    <string name="i_am_doing_a_thing">I AM DOING A THING</string>
+    <string name="send">Send</string>
+    <string name="connect">Connect</string>
+    <string name="name">Name</string>
+    <string name="your_message">your message</string>
+    <string name="your_message_here">your message here</string>
+    <string name="username_that_everyone_will_see">username that everyone will see</string>
+</resources>

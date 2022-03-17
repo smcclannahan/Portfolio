@@ -1,0 +1,3 @@
+gpp is just foo but one letter down. Anyway this is just a test file to force the ci/cd piple line to run with out changing anything important.
+So slight problem the server wants to test on the same port that it runs on.
+I can probably fix but the maven test part of ci/cd will fail untill i get it done.

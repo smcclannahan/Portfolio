@@ -1,0 +1,10 @@
+buttons
+com.mygdx.game
+com.mygdx.game.TestingStuff
+game.Weapons
+game.characters
+game.entities
+game.scene
+tests.com_test
+tests.game_tests.entities_tests
+tests.weaponsTest
