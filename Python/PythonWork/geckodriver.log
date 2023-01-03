@@ -1,0 +1,162 @@
+1671060875578	geckodriver	INFO	Listening on 127.0.0.1:53384
+1671060878621	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53385" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileYj3Sm0"
+1671060879275	Marionette	INFO	Marionette enabled
+1671060879288	Marionette	INFO	Listening on port 53413
+Read port: 53413
+WebDriver BiDi listening on ws://127.0.0.1:53385
+1671060879515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1671060951428	geckodriver	INFO	Listening on 127.0.0.1:53479
+1671060954496	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53480" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileNSLTt4"
+1671060955123	Marionette	INFO	Marionette enabled
+1671060955131	Marionette	INFO	Listening on port 53502
+Read port: 53502
+WebDriver BiDi listening on ws://127.0.0.1:53480
+1671060955275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1671060974311	geckodriver	INFO	Listening on 127.0.0.1:53556
+1671060977375	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53557" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileIKxkvp"
+1671060978007	Marionette	INFO	Marionette enabled
+1671060978019	Marionette	INFO	Listening on port 53576
+Read port: 53576
+WebDriver BiDi listening on ws://127.0.0.1:53557
+1671060978167	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileIKxkvp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53557/devtools/browser/09c8d7a3-4cf5-4fb3-a6cb-86f686f9307f
+1671060988539	Marionette	INFO	Stopped listening on port 53576
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671226511246	geckodriver	INFO	Listening on 127.0.0.1:54623
+1671226514279	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54624" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileVVcYEC"
+1671226524359	geckodriver	INFO	Listening on 127.0.0.1:54697
+1671226527428	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54698" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofile3UtFN1"
+1671226528408	Marionette	INFO	Marionette enabled
+1671226528417	Marionette	INFO	Listening on port 54750
+Read port: 54750
+WebDriver BiDi listening on ws://127.0.0.1:54698
+1671226528759	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofile3UtFN1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54698/devtools/browser/194eefd2-0f86-4701-88b2-91b9b343ce03
+JavaScript warning: https://publisher.caroda.io/videoPlayer/caroda.min.js?ctok=0c04ed4313534f74320945a5eba95b, line 51: unreachable code after return statement
+JavaScript warning: https://publisher.caroda.io/videoPlayer/caroda.min.js?ctok=0c04ed4313534f74320945a5eba95b, line 51: unreachable code after return statement
+JavaScript warning: https://cdn2.caroda.io/videoPlayer/v/57116ab021ec5dbed8e1116e7390686f6361726f64612d323032322d31322d31365431323a32383a32342e3830375a/s/2/static.min.js, line 70: unreachable code after return statement
+1671226545755	Marionette	INFO	Stopped listening on port 54750
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671226591685	geckodriver	INFO	Listening on 127.0.0.1:54943
+1671226594750	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54944" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofile6mtLSb"
+1671226595438	Marionette	INFO	Marionette enabled
+1671226595448	Marionette	INFO	Listening on port 54960
+Read port: 54960
+WebDriver BiDi listening on ws://127.0.0.1:54944
+1671226595647	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofile6mtLSb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54944/devtools/browser/a0209743-fa1b-4e36-a6c2-f9b727ea8609
+JavaScript warning: https://publisher.caroda.io/videoPlayer/caroda.min.js?ctok=0c04ed4313534f74320945a5eba95b, line 51: unreachable code after return statement
+JavaScript warning: https://publisher.caroda.io/videoPlayer/caroda.min.js?ctok=0c04ed4313534f74320945a5eba95b, line 51: unreachable code after return statement
+JavaScript warning: https://cdn2.caroda.io/videoPlayer/v/57116ab021ec5dbed8e1116e7390686f6361726f64612d323032322d31322d31365431323a32383a32342e3830375a/s/2/static.min.js, line 70: unreachable code after return statement
+1671226675485	Marionette	INFO	Stopped listening on port 54960
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671226703957	geckodriver	INFO	Listening on 127.0.0.1:55177
+1671226707024	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55178" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileRLgaP8"
+1671226707629	Marionette	INFO	Marionette enabled
+1671226707641	Marionette	INFO	Listening on port 55198
+Read port: 55198
+WebDriver BiDi listening on ws://127.0.0.1:55178
+1671226707787	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileRLgaP8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55178/devtools/browser/0bac56b0-151e-4b3e-845a-647be1b81b7c
+JavaScript warning: https://publisher.caroda.io/videoPlayer/caroda.min.js?ctok=0c04ed4313534f74320945a5eba95b, line 51: unreachable code after return statement
+JavaScript warning: https://publisher.caroda.io/videoPlayer/caroda.min.js?ctok=0c04ed4313534f74320945a5eba95b, line 51: unreachable code after return statement
+JavaScript warning: https://cdn2.caroda.io/videoPlayer/v/57116ab021ec5dbed8e1116e7390686f6361726f64612d323032322d31322d31365431323a32383a32342e3830375a/s/2/static.min.js, line 70: unreachable code after return statement
+1671226764691	geckodriver	INFO	Listening on 127.0.0.1:55360
+1671226767784	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55361" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofile7scF0J"
+1671226768347	Marionette	INFO	Marionette enabled
+1671226768354	Marionette	INFO	Listening on port 55378
+WebDriver BiDi listening on ws://127.0.0.1:55361
+Read port: 55378
+1671226768665	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofile7scF0J\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55361/devtools/browser/b563424f-c716-4e36-9a49-448896ff4def
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1671226814264	Marionette	INFO	Stopped listening on port 55378
+1671227133666	geckodriver	INFO	Listening on 127.0.0.1:55738
+1671227136736	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55739" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofilewMSp50"
+1671227137295	Marionette	INFO	Marionette enabled
+1671227137303	Marionette	INFO	Listening on port 55755
+WebDriver BiDi listening on ws://127.0.0.1:55739
+Read port: 55755
+1671227137643	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofilewMSp50\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55739/devtools/browser/a1146683-7448-4cc3-aa71-a4f2132979c2
+1671227167279	geckodriver	INFO	Listening on 127.0.0.1:55853
+1671227170338	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55854" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileDrGsUq"
+1671227170911	Marionette	INFO	Marionette enabled
+1671227170919	Marionette	INFO	Listening on port 55871
+WebDriver BiDi listening on ws://127.0.0.1:55854
+Read port: 55871
+1671227171184	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileDrGsUq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55854/devtools/browser/29f28a1a-ca85-496f-9fad-b86556a8f724
+JavaScript warning: https://publisher.caroda.io/videoPlayer/caroda.min.js?ctok=0c04ed4313534f74320945a5eba95b, line 51: unreachable code after return statement
+JavaScript warning: https://publisher.caroda.io/videoPlayer/caroda.min.js?ctok=0c04ed4313534f74320945a5eba95b, line 51: unreachable code after return statement
+JavaScript warning: https://cdn2.caroda.io/videoPlayer/v/57116ab021ec5dbed8e1116e7390686f6361726f64612d323032322d31322d31365431323a32383a32342e3830375a/s/2/static.min.js, line 70: unreachable code after return statement
+1671227183151	Marionette	INFO	Stopped listening on port 55871
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671227567299	geckodriver	INFO	Listening on 127.0.0.1:62501
+1671227570394	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62502" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileLTvTr1"
+1671227571100	Marionette	INFO	Marionette enabled
+1671227571108	Marionette	INFO	Listening on port 62523
+Read port: 62523
+WebDriver BiDi listening on ws://127.0.0.1:62502
+1671227571248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileLTvTr1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62502/devtools/browser/fd47795e-acd1-4f0e-ab20-e4fc432845ff
+1671227607717	Marionette	INFO	Stopped listening on port 62521671227608805	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62614" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileFctdPc"
+1671227609473	Marionette	INFO	Marionette enabled
+1671227609482	Marionette	INFO	Listening on port 62636
+WebDriver BiDi listening on ws://127.0.0.1:62614
+Read port: 62636
+1671227609755	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileFctdPc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62614/devtools/browser/04dcf72d-cde7-4c71-91f0-b84f5554ac0c
+JavaScript warning: https://publisher.caroda.io/videoPlayer/caroda.min.js?ctok=0c04ed4313534f74320945a5eba95b, line 51: unreachable code after return statement
+JavaScript warning: https://publisher.caroda.io/videoPlayer/caroda.min.js?ctok=0c04ed4313534f74320945a5eba95b, line 51: unreachable code after return statement
+JavaScript warning: https://cdn2.caroda.io/videoPlayer/v/57116ab021ec5dbed8e1116e7390686f6361726f64612d323032322d31322d31365431323a32383a32342e3830375a/s/2/static.min.js, line 70: unreachable code after return statement
+1671227643571	Marionette	INFO	Stopped listening on port 62636
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671227647192	geckodriver	INFO	Listening on 127.0.0.1:62775
+1671227650276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62776" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofilejOtl65"
+1671227650824	Marionette	INFO	Marionette enabled
+1671227650832	Marionette	INFO	Listening on port 62793
+Read port: 62793
+WebDriver BiDi listening on ws://127.0.0.1:62776
+1671227650963	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofilejOtl65\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62776/devtools/browser/b5bf0bc9-8ae0-4286-862d-873597a82ac5
+1671227822763	geckodriver	INFO	Listening on 127.0.0.1:64331
+1671227825788	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64332" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileu0D16E"
+1671227826492	Marionette	INFO	Marionette enabled
+1671227826500	Marionette	INFO	Listening on port 64347
+Read port: 64347
+WebDriver BiDi listening on ws://127.0.0.1:64332
+1671227826684	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileu0D16E\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64332/devtools/browser/ba0652c0-075c-4e1b-8730-1b79c79d260f
+JavaScript warning: https://publisher.caroda.io/videoPlayer/caroda.min.js?ctok=0c04ed4313534f74320945a5eba95b, line 51: unreachable code after return statement
+JavaScript warning: https://publisher.caroda.io/videoPlayer/caroda.min.js?ctok=0c04ed4313534f74320945a5eba95b, line 51: unreachable code after return statement
+JavaScript warning: https://cdn2.caroda.io/videoPlayer/v/57116ab021ec5dbed8e1116e7390686f6361726f64612d323032322d31322d31365431323a32383a32342e3830375a/s/2/static.min.js, line 70: unreachable code after return statement
+1671227841399	Marionette	INFO	Stopped listening on port 64347
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

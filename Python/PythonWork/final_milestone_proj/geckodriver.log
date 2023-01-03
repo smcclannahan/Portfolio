@@ -1,0 +1,60 @@
+1672695345409	geckodriver	INFO	Listening on 127.0.0.1:61102
+1672695348519	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61103" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileraElPp"
+1672695349423	Marionette	INFO	Marionette enabled
+1672695349436	Marionette	INFO	Listening on port 61129
+Read port: 61129
+WebDriver BiDi listening on ws://127.0.0.1:61103
+1672695349625	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileraElPp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61103/devtools/browser/552335dc-c108-4fe7-b3cf-d30ee77672bd
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1672695429525	Marionette	INFO	Stopped listening on port 61129
+1672695462631	geckodriver	INFO	Listening on 127.0.0.1:61319
+1672695465692	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61320" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofile96MwdF"
+1672695466325	Marionette	INFO	Marionette enabled
+1672695466333	Marionette	INFO	Listening on port 61338
+Read port: 61338
+WebDriver BiDi listening on ws://127.0.0.1:61320
+1672695466481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofile96MwdF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61320/devtools/browser/1ed80fcc-e90f-4c21-a8a7-514fac8cf1b4
+1672695470725	Marionette	INFO	Stopped listening on port 61338
+JavaScript error: resource://services-settings/Utils.jsm, line 240: TypeError: NetworkError: Network request failed
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "Sqlite.sys.mjs: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1672695496412	geckodriver	INFO	Listening on 127.0.0.1:61436
+1672695499449	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61437" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofilefWpKcs"
+1672695499988	Marionette	INFO	Marionette enabled
+1672695499998	Marionette	INFO	Listening on port 61454
+Read port: 61454
+WebDriver BiDi listening on ws://127.0.0.1:61437
+1672695500173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofilefWpKcs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61437/devtools/browser/ca91799e-e31e-4c5a-8fb3-4b0ac9d071d2
+1672695506203	Marionette	INFO	Stopped listening on port 61454
+JavaScript error: resource://services-settings/Utils.jsm, line 240: TypeError: NetworkError: Network request failed
+1672695529614	geckodriver	INFO	Listening on 127.0.0.1:61555
+1672695532692	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61556" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileDqpr2j"
+1672695533267	Marionette	INFO	Marionette enabled
+1672695533274	Marionette	INFO	Listening on port 61573
+WebDriver BiDi listening on ws://127.0.0.1:61556
+Read port: 61573
+1672695533549	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\homer\\AppData\\Local\\Temp\\rust_mozprofileDqpr2j\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61556/devtools/browser/83482a53-d9a4-4d9e-ab52-cee1289064fe
+1672695539645	Marionette	INFO	Stopped listening on port 61573
