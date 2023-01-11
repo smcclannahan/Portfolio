@@ -1,10 +1,7 @@
 body{
     background-color: #3C6255;
 }
-h1{
-    color:#A6BB8D;
-}
-h3{
+h1,h2,h3{
     color:#A6BB8D;
 }
 hr{
