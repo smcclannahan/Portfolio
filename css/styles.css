@@ -1,7 +1,12 @@
 body{
     background-color: #3C6255;
 }
-
+h1{
+    color:#A6BB8D;
+}
+h3{
+    color:#A6BB8D;
+}
 hr{
     border-top: #EAE7B1;
     border-style: none;
