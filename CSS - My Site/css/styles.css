@@ -1,23 +1,55 @@
-/**************TAG SELECTORS**************/
+/**************TAG SELECTORS*********#A6BB8D*****/
 body{
-    background-color: blue;
+    margin: 0px;
+    text-align: center;
+    background-color: #61876E;
+    font-family: 'Ubuntu', sans-serif;
+}
+div{
+    position: relative;
+    /*General Styling*/
+    background-color: #3C6255;
+    /*Border Styling*/
+    border-bottom: #EAE7B1;
+    border-style: none;
+    border-bottom-style: dotted;
+    border-width: 10px;
+    /*Padding Styling*/
+    padding-top: 100px;
+    /*Margin Styling*/
 }
 h1,h2,h3{
     color:#A6BB8D;
+    font-family: 'Abril Fatface', cursive;    
+    margin: 0 auto;
 }
-hr{
-    border-top: #EAE7B1;
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 10px;
-    width: 10%;
-    
-}
-a:link{
+p{
     color:#A6BB8D;
+    margin: 0 auto;
 }
-a:visited, a:hover{
-    color:#61876E;
-}
-/*#3C6255 <= good hex code*/
+
 /**************CLASS SELECTORS**************/
+/*.middle_container{
+    background-color: red;
+    border-style: none;
+    width: 100px;
+    height: 100px;
+
+}
+.bottom_container{
+    background-color: blue;
+    border-style: none;
+    height: 100px;
+    width: 100px;
+}*/
+
+.bottom-cloud{
+    position: absolute;
+    left:300px;
+    bottom:300px;
+}
+.top-cloud{
+    position:absolute;
+    right:300px;
+    top:50px;
+}
