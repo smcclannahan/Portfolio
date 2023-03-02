@@ -1,5 +1,5 @@
 def hello_World():
-    #basic bitch function
+    #basic function
     return "Hello World"
 
 def hello_Name(name):
