@@ -1,7 +1,13 @@
+function add(num1, num2){return num1+num2;}
+function subtract(num1, num2){return num1-num2;}
+function multiply(num1, num2){return num1*num2;}
+function divide(num1, num2){return num1/num2;}
 
-var count = 99;
-while(count != 0){
-    console.log(count, " bottles of beer on the wall, ", count, " bottles of beer. \nTake one down pass it around, ", count-1, " bottles of beer on the wall.")
-    count--;
+function calculator(num1, num2, operator){
+    return operator(num1, num2);
 }
 
+console.log(calculator(5,6,multiply));
+console.log(calculator(5,6,add));
+console.log(calculator(6,5,subtract));
+console.log(calculator(30,5,divide));

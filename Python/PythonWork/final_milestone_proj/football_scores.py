@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import csv
+import sqlite3
 
 driver = webdriver.Firefox()
 
@@ -11,12 +12,13 @@ scores = open('scores.csv', 'w')
 csv_scores = csv.writer(scores)
 csv_scores.writerow(['Home Team', 'Away Team', 'Home Score', 'Away Score'])
 
+#data gathering
 homeTeam = driver.find_elements(By.CLASS_NAME, "event__participant--home")
 awayTeam = driver.find_elements(By.CLASS_NAME, "event__participant--away")
 homeScore = driver.find_elements(By.CLASS_NAME, "event__score--home")
 awayScore = driver.find_elements(By.CLASS_NAME, "event__score--away")
 
-
+#putting the games into a csv
 for game in range(0, len(homeTeam)):
     if(homeScore[game].text == '-' or awayScore[game].text == '-'):
         continue
