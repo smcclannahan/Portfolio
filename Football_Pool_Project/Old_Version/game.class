@@ -1,0 +1,139 @@
+<?php
+
+class Game {
+        var $num;
+        var $away;
+        var $home;
+        var $away_score;
+        var $home_score;
+        var $spread;
+        
+        function isDog($team_num) {
+           if (($this->isAwayDog($team_num)) || ($this->isHomeDog($team_num))) { return true; }
+           else { return false; }
+        }
+        function isAwayDog($team_num) {
+           if (($this->away == $team_num) && ($this->spread > 0)) { return true; }
+           else { return false;}
+        }
+        function isHomeDog($team_num) {
+           if (($this->home == $team_num) && ($this->spread < 0)) { return true; }
+           else { return false;}
+        }
+        function isFav($team_num) {
+           if (($this->isAwayFav($team_num)) || ($this->isHomeFav($team_num))) { return true; }
+           else { return false; }
+        }
+        function isAwayFav($team_num) {
+           if (($this->away == $team_num) && ($this->spread < 0)) { return true; }
+           else { return false;}
+        }
+        function isHomeFav($team_num) {
+           if (($this->home == $team_num) && ($this->spread > 0)) { return true; }
+           else { return false;}
+        }
+        
+        function isMyGame($team_num) {
+           if (($this->away == $team_num) || ($this->home == $team_num)) { return true; }
+           return false;
+        }
+        function isAwayGame($team_num) {
+           if ($this->away == $team_num) { return true;}
+           else { return false;}
+        }
+        function isHomeGame($team_num) {
+           if ($this->home == $team_num) { return true;}
+           else { return false;}
+        }
+        
+        function pointsFor($team_num) { 
+           if ($this->away == $team_num) { return $this->away_score; }
+           else if ($this->home == $team_num) { return $this->home_score; }
+           else { return -1; };
+        }
+        function pointsAgainst($team_num) { 
+           if ($this->away == $team_num) { return $this->home_score; }
+           else if ($this->home == $team_num) { return $this->away_score; }
+           else { return -1; };
+        }
+        
+        
+        function isWin($team_num) {
+           if (($this->isHomeWin($team_num)) || ($this->isAwayWin($team_num))) {return true;}
+           else {return false; };
+        }
+        function isLoss($team_num) {
+           if (($this->isHomeLoss($team_num)) || ($this->isAwayLoss($team_num))) {return true;}
+           else {return false; };
+        }
+        function isTie($team_num) {
+           if (($this->isHomeTie($team_num)) || ($this->isAwayTie($team_num))) {return true;}
+           else {return false; };
+        }
+        
+        
+        function isWinAS($team_num) {
+           if (($this->isHomeWinAS($team_num)) || ($this->isAwayWinAS($team_num))) {return true;}
+           else {return false; };
+        }
+        function isLossAS($team_num) {
+           if (($this->isHomeLossAS($team_num)) || ($this->isAwayLossAS($team_num))) {return true;}
+           else {return false; };
+        }
+        function isTieAS($team_num) {
+           if (($this->isHomeTieAS($team_num)) || ($this->isAwayTieAS($team_num))) {return true;}
+           else {return false; };
+        }
+
+        function isHomeWin($team_num) {
+           if (($team_num == $this->home) && ($this->home_score > $this->away_score)) { return true;}
+           else {return false; };
+        }
+        function isAwayWin($team_num) {
+           if (($team_num == $this->away) && ($this->home_score < $this->away_score)) { return true;}
+           else {return false; };
+        }
+        function isHomeWinAS($team_num) {
+           if (($team_num == $this->home) && ($this->home_score > $this->away_score + $this->spread)) { return true;}
+           else {return false; };
+        }
+        function isAwayWinAS($team_num) {
+           if (($team_num == $this->away) && ($this->home_score < $this->away_score + $this->spread)) { return true;}
+           else {return false; };
+        }
+        function isHomeLoss($team_num) {
+           if (($team_num == $this->home) && ($this->home_score < $this->away_score)) { return true;}
+           else {return false; };
+        }
+        function isAwayLoss($team_num) {
+           if (($team_num == $this->away) && ($this->home_score > $this->away_score)) { return true;}
+           else {return false; };
+        }
+        function isHomeLossAS($team_num) {
+           if (($team_num == $this->home) && ($this->home_score < $this->away_score + $this->spread)) { return true;}
+           else {return false; };
+        }
+        function isAwayLossAS($team_num) {
+           if (($team_num == $this->away) && ($this->home_score > $this->away_score + $this->spread)) { return true;}
+           else {return false; };
+        }
+        function isHomeTie($team_num) {
+           if (($team_num == $this->home) && ($this->home_score == $this->away_score)) { return true;}
+           else {return false; };
+        }
+        function isAwayTie($team_num) {
+           if (($team_num == $this->away) && ($this->home_score == $this->away_score)) { return true;}
+           else {return false; };
+        }
+        function isHomeTieAS($team_num) {
+           if (($team_num == $this->home) && ($this->home_score == $this->away_score + $this->spread)) { return true;}
+           else {return false; };
+        }
+        function isAwayTieAS($team_num) {
+           if (($team_num == $this->away) && ($this->home_score == $this->away_score + $this->spread)) { return true;}
+           else {return false; };
+        }
+
+};
+
+?>

@@ -160,18 +160,18 @@
 
     
     <main class="form-signin w-100 m-auto">
-    <form>
+    <form class = "form-signin" action="/" method="post">
         <img class="mb-4" src="images/greattuskPlaceholder.png" alt="" width="72" height="57">
         <h1 class="h3 mb-3 fw-normal">Newsletter Sign-up</h1>
 
         <div class="form-floating">
-        <input type="text" class="form-control top" placeholder="First Name" required autofocus>
+        <input type="text" class="form-control top" placeholder="First Name" name ="firstName" required autofocus>
         </div>
         <div class="form-floating">
-        <input type="text" class="form-control middle" placeholder="Last Name" required>
+        <input type="text" class="form-control middle" placeholder="Last Name" name="lastName" required>
         </div>
         <div class="form-floating">
-        <input type="email" class="form-control bottom" placeholder="Example@Example.com" required>
+        <input type="email" class="form-control bottom" placeholder="Example@Example.com" name="email" required>
         </div>
 
 
